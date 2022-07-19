@@ -23,7 +23,7 @@ class RideHttpOverrides extends HttpOverrides {
 }
 
 Future<void> main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   // HttpOverrides.global = RideHttpOverrides();
 
